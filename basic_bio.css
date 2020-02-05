@@ -1,0 +1,31 @@
+#contact {
+    text-align: left;
+}
+.title {
+    text-align: center;
+    margin-top: 100px;
+    padding:20px 0px 20px 0px;
+    border: 1px solid black;
+}
+.title_box {
+    background-color: grey;
+    margin-right: 200px;
+    margin-left: 200px;
+
+}
+.bio-image {
+    width:200px;
+    height:200px;
+}
+.div_bio {
+    margin-left: 200px;
+    margin-right: 700px;
+    text-align: center;
+    border: 1px solid black;
+}
+.div_contact {
+    margin-left: 724px;
+    margin-right: 200px;
+    text-align: center;
+    border: 1px solid black;
+}
