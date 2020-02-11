@@ -1,31 +1,39 @@
 <!DOCTYPE html>
-<link rel="stylesheet" href="basic_bio.css">
-<html>
+<html lang="en">
     <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="reset.css" type="text/css">
+        <link rel="stylesheet" href="basic_bio.css" type="text/css">
         <title>SB basic bio</title>
     </head>
-    
+
     <body>
-        <div class="title_box">
+        <nav class="title_box">
             <header class="title"><h1>Student Bio</h1></header>
-        </div>
+        </nav>
+        <div class="flex-container">
+            <div class="div_bio"> 
+                <h2 class="subheading"><b>Samuel Broughton</b></h2>
+                <br>
+                <img class="bio-image" src="https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg" alt="frog">
+                <br>
+                <p id="bioMain">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dui tellus, semper eu erat ut, vulputate gravida ipsum. </p>
+            </div>
 
-        <div class="div_bio"> 
-            <h2>Samuel Broughton</h2>
-            <br>
-            <img class="bio-image" src="https://cdn.clipart.email/b7be896dfae7327f8ac6c988fc6c2510_frog-clipart_500-500.svg" alt="frog">
-            <br>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dui tellus, semper eu erat ut, vulputate gravida ipsum. </p>
-        </div>
-
-        <div class="div_contact"> 
-            <h2 >Contact Info</h2>
-            <ul id="contact">
-                <li><b>Email: </b><a href="#">someplace@gmail.com</a></li>
-                <li><b>Github: </b><a href="https://github.com/Sam-Bro/">SamBro</a></li>
-                <li><b>Portfolio: </b><a href="#">comingSoon</a></li>
-            </ul>
+            <div class="div_contact"> 
+                <h2 class="subheading" id="contactGap"><b>Contact Info</b></h2>
+                <ul id="contact">
+                    <li><b>Email: </b><a href="#">someplace@gmail.com</a></li>
+                    <br>
+                    <li><b>Github: </b><a href="https://github.com/Sam-Bro/">SamBro</a></li>
+                    <br>
+                    <li><b>Portfolio: </b><a href="#">comingSoon</a></li>
+                </ul>
+            </div>
         </div>
 
     </body>
 </html>
+
+

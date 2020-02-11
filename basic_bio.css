@@ -1,31 +1,57 @@
+h1 {
+    font-size: 32px;
+    color: white;
+}
+h2 {
+    font-size: 25px;
+}
+b {
+    font-weight: 700;
+}
+
+p {
+    font-size: 18px;
+}
+#contactGap {
+    padding-bottom: 40px;
+}
+#bioMain {
+    padding-top: 20px;
+}
+
 #contact {
     text-align: left;
 }
+.subheading {
+    padding-top: 30px;
+}
+
 .title {
     text-align: center;
-    margin-top: 100px;
-    padding:20px 0px 20px 0px;
+    padding:40px 0px 40px 0px;
     border: 1px solid black;
 }
 .title_box {
-    background-color: grey;
-    margin-right: 200px;
-    margin-left: 200px;
-
+    background-color: #0091EA ;
 }
 .bio-image {
     width:200px;
     height:200px;
+    float: left;
+    border-radius: 100%;
 }
 .div_bio {
-    margin-left: 200px;
-    margin-right: 700px;
+    width: 40%;
     text-align: center;
     border: 1px solid black;
 }
 .div_contact {
-    margin-left: 724px;
-    margin-right: 200px;
+    width:40%; 
     text-align: center;
     border: 1px solid black;
+
+}
+.flex-container {
+    display:flex;
+    justify-content: center;
 }
