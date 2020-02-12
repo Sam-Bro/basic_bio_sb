@@ -27,12 +27,14 @@ p {
 }
 
 .title {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #0091EA ;
     text-align: center;
     padding:40px 0px 40px 0px;
     border: 1px solid black;
-}
-.title_box {
-    background-color: #0091EA ;
 }
 .bio-image {
     width:200px;
@@ -54,4 +56,7 @@ p {
 .flex-container {
     display:flex;
     justify-content: center;
+}
+.nav-gap {
+    padding-top: 114px;
 }
