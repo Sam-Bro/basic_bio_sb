@@ -1,39 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="reset.css" type="text/css">
-        <link rel="stylesheet" href="style.css" type="text/css">
-        <title>SB basic bio</title>
-    </head>
 
-    <body>
-        <nav>
-            <header class="title"><h1>Student Bio</h1></header>
-        </nav>
-        <div class="flex-container nav-gap">
-            <div class="div_bio"> 
-                <h2 class="subheading"><b>Samuel Broughton</b></h2>
-                <br>
-                <img class="bio-image" src="https://htmlcolorcodes.com/assets/images/html-color-codes-color-tutorials-hero-00e10b1f.jpg" alt="frog">
-                <br>
-                <p id="bioMain">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum dui tellus, semper eu erat ut, vulputate gravida ipsum. </p>
-            </div>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./CSS/style.css" style="text/css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+        integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
 
-            <div class="div_contact"> 
-                <h2 class="subheading" id="contactGap"><b>Contact Info</b></h2>
-                <ul id="contact">
-                    <li><b>Email: </b><a href="#">someplace@gmail.com</a></li>
-                    <br>
-                    <li><b>Github: </b><a href="https://github.com/Sam-Bro/">SamBro</a></li>
-                    <br>
-                    <li><b>Portfolio: </b><a href="#">comingSoon</a></li>
-                </ul>
-            </div>
+    <title>Sam Broughton | Portfolio</title>
+
+</head>
+
+<body class="body">
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+    integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+    crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+    integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+    crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+    integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+    crossorigin="anonymous"></script>
+
+<!-- Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark navbar-full">
+        <a class="navbar-brand nav-title" href="index.html">Sam Broughton</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item active link-gap">
+                    <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link link-border" href="portfolio.html">Portfolio</a>
+                </li>
+                <li class="nav-item link-gap">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
         </div>
+    </nav>
+<!-- main content card-->
+    <main class="card card-width prof-about-card">
+        <section class="card-body card-color">
+            <h4 class="card-title about-border">About Me</h4>
+            <img src="https://dummyimage.com/150x200/000/fff" class="img-fluid float-left about-img" alt="..." >
+            <p class="card-text">Proin ut tortor dapibus turpis venenatis tincidunt a a purus. Nullam laoreet, est quis
+                sodales luctus, lectus mi volutpat felis, eu congue mi sapien a nulla. In faucibus quam et quam dignissim vestibulum. Vestibulum id eleifend nulla. In hac habitasse
+                platea dictumst.</p>
+                
+                <p>Nam id finibus tellus, a eleifend
+                felis. In tempus dui at mattis vulputate. Integer venenatis dolor vel urna cursus, sed maximus sapien
+                convallis. In faucibus quam et quam dignissim vestibulum. Vestibulum id eleifend nulla. In hac habitasse
+                platea dictumst.</p>
+        </section>
+    </main>
 
-    </body>
+<!-- Footer -->
+    <footer class="py-4 bg-dark text-white-50 footer">
+        <div class="container text-center">
+            <small>Copyright &copy;</small>
+        </div>
+    </footer>
+</body>
+
 </html>
-
-
